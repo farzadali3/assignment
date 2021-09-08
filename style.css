@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+h1 {
+  text-align: center;
+}
+.sush {
+  background-color: gray;
+  border: 1px solid black;
+}
+.beef {
+  background-color: olivedrab;
+  border: 1px solid black;
+}
+.chic {
+  background-color: orchid;
+  border: 1px solid black;
+}
+
+.title {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  margin: 0;
+  padding: 5px 15px 5px 15px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.span1 {
+  /* display: inline-block; */
+  float: left;
+  /* width: 32%; */
+  background-color: gainsboro;
+  margin-left: 10px;
+  padding: 5px;
+  padding-top: 7%;
+  position: relative;
+  border: 1px solid black;
+}
+@media (min-width: 992px) {
+  .span1 {
+    /* display: inline-block; */
+    /* float: left; */
+    width: 32%;
+    /* background-color: gainsboro;
+    margin-left: 10px;
+    padding: 5px;
+    padding-top: 7%;
+    position: relative; */
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .a1,
+  .a2 {
+    width: 48%;
+    float: left;
+  }
+  .a1 {
+    margin-right: 10px;
+  }
+  .a3 {
+    margin: 30px 10px 30px 10px;
+  }
+}
+@media (max-width: 767px) {
+  .span1 {
+    display: block;
+    margin: 10px 30px 10px 30px;
+  }
+}
